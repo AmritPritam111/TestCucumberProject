@@ -1,0 +1,73 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "login validation with valid data",
+        "description": "",
+        "id": "marriot-bonvoy-login-validation;login-validation-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "initialize browser",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User go to sign in or join option",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User click on join option",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User fill the require text",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "User successfully register",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Marriot Bonvoy login validation",
+    "description": "",
+    "id": "marriot-bonvoy-login-validation",
+    "keyword": "Feature",
+    "uri": "MarriotBonvoyReg.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@UATTesting"
+      }
+    ]
+  }
+]

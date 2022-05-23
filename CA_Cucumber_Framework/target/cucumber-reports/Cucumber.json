@@ -1,0 +1,432 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Popular offers page validation",
+        "description": "",
+        "id": "popular-offers-page-validation-of-marriot-bonvoy-application;popular-offers-page-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9011175100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "First Initialize browser",
+            "match": {
+              "location": "MBPopularOffers.open_chrome_browser_and_enter_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10486111700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User goes to popular offers link",
+            "match": {
+              "location": "MBPopularOffers.go_to_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7813749400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on popular offers link",
+            "match": {
+              "location": "MBPopularOffers.click_on_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3306649300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verifys the title of the page and highlight it",
+            "match": {
+              "location": "MBPopularOffers.highlight_it()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2328190600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Close the browser",
+            "match": {
+              "location": "MBPopularOffers.close_the_app()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Popular Offers page validation Of Marriot Bonvoy Application",
+    "description": "",
+    "id": "popular-offers-page-validation-of-marriot-bonvoy-application",
+    "keyword": "Feature",
+    "uri": "MBPopularOffers.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@SmokeTesting"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Private Home Rentals Page Validation",
+        "description": "",
+        "id": "private-home-rentals-page-validation-of-marriot-bonvoy-application;private-home-rentals-page-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11389001500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user initialize browser",
+            "match": {
+              "location": "MBPrivateHomeRentals.user_initialize_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5144193200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user go to the private home rentals page",
+            "match": {
+              "location": "MBPrivateHomeRentals.go_to_the_phr()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7538062000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on explore homes link",
+            "match": {
+              "location": "MBPrivateHomeRentals.click_on_explore_homes()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 804587000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user highlight the title",
+            "match": {
+              "location": "MBPrivateHomeRentals.highlight_the_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2405414600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "closes the browser",
+            "match": {
+              "location": "MBPrivateHomeRentals.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Private Home Rentals page validation of Marriot Bonvoy Application",
+    "description": "",
+    "id": "private-home-rentals-page-validation-of-marriot-bonvoy-application",
+    "keyword": "Feature",
+    "uri": "MBPrivateHomeRentals.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@UATTesting"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Week\u0027s Top Offers page validation",
+        "description": "",
+        "id": "week\u0027s-top-offers-page-validation-of-marriot-bonvoy-application;week\u0027s-top-offers-page-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11044239300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Initialize browser",
+            "match": {
+              "location": "MBWeeksTopOffers.initialize_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2470853300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Go to Week\u0027s top offer page",
+            "match": {
+              "location": "MBWeeksTopOffers.go_to_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7405013600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on link",
+            "match": {
+              "location": "MBWeeksTopOffers.click_on_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1752049700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Highlight the text",
+            "match": {
+              "location": "MBWeeksTopOffers.highlight_text()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2950983400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Closes the browser",
+            "match": {
+              "location": "MBWeeksTopOffers.closes_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Week\u0027s Top Offers page validation of Marriot Bonvoy Application",
+    "description": "",
+    "id": "week\u0027s-top-offers-page-validation-of-marriot-bonvoy-application",
+    "keyword": "Feature",
+    "uri": "MBWeeksTopOffers.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@UATTesting"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Where will you go next page validation",
+        "description": "",
+        "id": "where-will-you-go-next-page-validation-of-marriot-bonvoy-application;where-will-you-go-next-page-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9251032400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User initialize browser",
+            "match": {
+              "location": "MBWhere_will_you_go_next.initialize_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8765912600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User mouse hover on page",
+            "match": {
+              "location": "MBWhere_will_you_go_next.mouse_hover_on_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8664264900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on the page",
+            "match": {
+              "location": "MBWhere_will_you_go_next.click_on_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3742887800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "highlight the page",
+            "match": {
+              "location": "MBWhere_will_you_go_next.highlight_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2235816900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "close the browser",
+            "match": {
+              "location": "MBWhere_will_you_go_next.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Where will you go next page validation of Marriot Bonvoy Application",
+    "description": "",
+    "id": "where-will-you-go-next-page-validation-of-marriot-bonvoy-application",
+    "keyword": "Feature",
+    "uri": "MBWwygn.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@UATTesting"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "login validation with valid data",
+        "description": "",
+        "id": "marriot-bonvoy-login-validation;login-validation-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6267245600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "initialize browser",
+            "match": {
+              "location": "MBLogin.open_chrome_browser_and_enter_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15066837000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User go to sign in or join option",
+            "match": {
+              "location": "MBLogin.go_to_sign_in_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 336036500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on join option",
+            "match": {
+              "location": "MBLogin.click_on_join_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4081043100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User fill the require text",
+            "match": {
+              "location": "MBLogin.fill_the_require_textbox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9078732200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User successfully register",
+            "match": {
+              "location": "MBLogin.click_on_join_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Marriot Bonvoy login validation",
+    "description": "",
+    "id": "marriot-bonvoy-login-validation",
+    "keyword": "Feature",
+    "uri": "MarriotBonvoyReg.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@UATTesting"
+      }
+    ]
+  }
+]

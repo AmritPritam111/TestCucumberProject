@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="153.340082">
+    <testcase classname="Popular Offers page validation Of Marriot Bonvoy Application" name="Popular offers page validation" time="32.945876">
+        <system-out>
+            <![CDATA[Given First Initialize browser..............................................passed
+When User goes to popular offers link.......................................passed
+Then User clicks on popular offers link.....................................passed
+Then User verifys the title of the page and highlight it....................passed
+Then Close the browser......................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Private Home Rentals page validation of Marriot Bonvoy Application" name="Private Home Rentals Page Validation" time="27.281258">
+        <system-out>
+            <![CDATA[When user initialize browser................................................passed
+Then user go to the private home rentals page...............................passed
+Then user click on explore homes link.......................................passed
+Then user highlight the title...............................................passed
+Then closes the browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Week's Top Offers page validation of Marriot Bonvoy Application" name="Week's Top Offers page validation" time="25.623139">
+        <system-out>
+            <![CDATA[When Initialize browser.....................................................passed
+Then Go to Week's top offer page............................................passed
+Then Click on link..........................................................passed
+Then Highlight the text.....................................................passed
+Then Closes the browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Where will you go next page validation of Marriot Bonvoy Application" name="Where will you go next page validation" time="32.659915">
+        <system-out>
+            <![CDATA[When User initialize browser................................................passed
+Then User mouse hover on page...............................................passed
+Then User click on the page.................................................passed
+Then highlight the page.....................................................passed
+Then close the browser......................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Marriot Bonvoy login validation" name="login validation with valid data" time="34.829894">
+        <system-out>
+            <![CDATA[Given initialize browser....................................................passed
+When User go to sign in or join option......................................passed
+Then User click on join option..............................................passed
+Then User fill the require text.............................................passed
+Then User successfully register.............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
